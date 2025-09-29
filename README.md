@@ -1,9 +1,9 @@
 
 
-# SomaliWhisper — README
+# SomaliWhisper
 
 **Project:** SomaliWhisper
-**Purpose:** Evaluate and fine-tune OpenAI’s Whisper (small) for Somali automatic speech recognition (ASR) using LoRA parameter-efficient fine-tuning. This repository/notebook contains baseline evaluation, EDA on Somali datasets, LoRA fine-tuning, and evaluation of the fine-tuned model.
+**Purpose:** Evaluate and fine-tune OpenAI’s Whisper (small) for Somali automatic speech recognition (ASR) using LoRA parameter-efficient fine-tuning. This repository/notebook contains baseline evaluation, EDA on Somali ASR/TTS datasets, LoRA fine-tuning, and evaluation of the fine-tuned model.
 
 
 
