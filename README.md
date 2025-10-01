@@ -80,14 +80,14 @@ Install dependencies (example Colab cell):
 ---
 
 ## Datasets Used
+- For Evaluation: 
+  - `adityaedy01/somali-voice` (Hugging Face)
+  - `nurfarah57/somali_asr` (Hugging Face)
+- For Fine-Tuning: Local manifests available in [Google Drive datasets folder](https://drive.google.com/drive/folders/1NMz5H-KjYYfEAUAWuF7J6dt3QAx8oLBi?usp=sharing)
+  - `somali_tts_dataset.csv` (TTS-style manifest, sourced from Hugging Face `Somali-tts/somali-tts-datasets`)
+  - `soomali_asr_dataset_shortened.csv` (ASR manifest, sourced from Hugging Face `skydheere/soomali-asr-dataset`)
 
-- `adityaedy01/somali-voice` (Hugging Face)
-- `nurfarah57/somali_asr` (Hugging Face)
-- Local manifests (used for fine-tuning) available in [Google Drive datasets folder](https://drive.google.com/drive/folders/1NMz5H-KjYYfEAUAWuF7J6dt3QAx8oLBi?usp=sharing):
-  - `somali_tts_dataset.csv` (TTS-style manifest)
-  - `soomali_asr_dataset_shortened.csv` (ASR manifest)
-
-**Note:** The two Hugging Face datasets use different reference text column names:
+**Note:** The two datasets used for evaluation use different reference text column names:
 - `adityaedy01/somali-voice` → `sentence`
 - `nurfarah57/somali_asr` → `transcription`
 
