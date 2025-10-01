@@ -301,7 +301,7 @@ EDA was run on local manifests (sampled for audio metadata to avoid long read ti
 
 ## Acknowledgements & License
 
-- Datasets used are from Hugging Face dataset authors:
+- Datasets used for Evaluation are from Hugging Face dataset authors:
   - `adityaedy01/somali-voice`
   - `nurfarah57/somali_asr`
 - Whisper model: OpenAI / Hugging Face (`openai/whisper-small`)
